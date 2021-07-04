@@ -67,3 +67,19 @@ h2 {
   box-shadow: 10px 10px 40px gray;
   border-radius: 5px;
 }
+
+#full-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(#ffa07a, #ff6649);
+  border-image-slice: 1;
+}
+
+#baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(#0006ff, #00f9ff);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+}
