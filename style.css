@@ -9,8 +9,9 @@ h1 {
   font-size: 50px;
 }
 
-section {
+.flexible-container {
   display: flex;
+  margin-bottom: 150px;
 }
 /* top section  */
 .top-banner {
@@ -23,7 +24,7 @@ section {
 
 .half-width {
   width: 50%;
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 .half-width img {
@@ -31,10 +32,17 @@ section {
 }
 
 .link-button {
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(#ff926e, #ff7052);
   text-decoration: none;
   padding: 10px 40px;
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+
+/* 2nd section  */
+.middle-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
